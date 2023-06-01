@@ -27,7 +27,12 @@
                 <li>Funciones de un entorno de desarrollo.</li>
                 <li>Instalación de plugins.</li>
                 <li>Depuración del código.</li>
-                <li>Refactorización.</li>
+                	<p>Breakpoints</p>
+                <li>Refactorización: 
+                	<a href="https://refactoring.com/">https://refactoring.com/</a> 
+                	Refactoring es reestructurar el código sin romperlo
+                	<a href="https://youtu.be/sYLbg7VZ8CM">Video Edix sobre la refactorización</a>
+                </li>
                 <li>Generación de documentación.</li>
             </ul>
         <li>Diseño y realizacion de pruebas</li>
