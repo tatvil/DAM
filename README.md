@@ -16,3 +16,4 @@ El temario y ejercicios corresponde a Edix / UNIR 2022-2024
 - PMM - Programación Movil y Multimedia
 - PSP - Programación de Servicios y Procesos
 - SDGE - Sistemas de Gestión Empresarial
+- Inglés (Asignatura de la Comunidad de Madrid)
