@@ -1,25 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 <?php
 function menus($menu)
-    {
+    { ?>
         <div class="menu-principal">
         <ul>
          <li>
- <?php       if ($menu=="inicio") { ?><a class="active" href="index.php">Inicio</a>  <?php }
-             else { ?> <a href='index.php'>Inicio</a> <?php  }    ?>
+ <?php
+            if ($menu=="inicio") {
+                  $directorio=""; ?>
+                  <a class="active" href="index.php">Inicio</a>  <?php
+                  }
+             else {
+                  $directorio="../../"; ?>
+                  <a href='index.php'>Inicio</a> <?php
+                  }    ?>
          </li>
          
          <li>
- <?php       if ($menu=="ed"){ ?> <a class="active" href="DAM1/EntornosDesarrollo/">Entornos de Desarrollo</a> <?php }
-             else{ ?> <a href="DAM1/EntornosDesarrollo/">Personas </a> <?php  } ?>
+ <?php       if ($menu=="ed"){ ?>
+                  <a class="active"
+                        href=<?php echo "'".$directorio."DAM1/EntornosDesarrollo/'>
+                        Entornos de Desarrollo </a>";
+                  }
+             else{ ?> <a href="../../DAM1/EntornosDesarrollo/">Personas </a> <?php  } ?>
        </li>
        
        <li>
@@ -43,7 +45,4 @@ function menus($menu)
 
  </ul>
  </div>
-<?php   } 
-
-    }
-?>
+<?php   }   ?>

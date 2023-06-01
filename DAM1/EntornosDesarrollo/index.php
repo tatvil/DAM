@@ -7,8 +7,10 @@
 
     <title>Entornos de desarrollo</title>
     <link rel="stylesheet" href="../../css/style.css">
+    <?php include "../../cabecera.php"; ?>
 </head>
 <body>
+    <?php menus("ed"); ?>
     <h1>Entornos de desarrollo</h1>
     <h2>Temario</h2>
     <ol>

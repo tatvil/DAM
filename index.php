@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desarrollo de Aplicaciones Multiplataforma (DAM)</title>
     <link rel="stylesheet" href="css/style.css">
-    <?php import "cabecera.php"; ?>
+    <?php include "cabecera.php"; ?>
 </head>
 <body>
-    <?php menus("ed"); ?>
+    <?php menus("inicio"); ?>
     <h1>DAM - FP Grado Superior de desarrollo de aplicaciones Multiplataforma</h1>
     <h2>DAM - Primer curso</h2>
     <h3>ASIGNATURAS</h3>
