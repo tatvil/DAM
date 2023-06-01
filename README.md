@@ -1,7 +1,8 @@
 # DAM - FP Grado Superior de desarrollo de aplicaciones Multiplataforma
 
-## DAM - 1er curso
-ASIGNATURAS
+El temario y ejercicios corresponde a Edix / UNIR 2022-2024
+
+## DAM - Primer curso
 - LMSGI - Lenguajes de Marcas y sistemas de Gestión de la información
 - FOL - Formacion y Orientación Laboral
 - PRG - Programación
@@ -9,4 +10,9 @@ ASIGNATURAS
 - SSII - Sistemas Informáticos
 - ED - Entornos de desarrollo
 
-## DAM - 2do curso
+## DAM - Segundo curso
+- AAD - Acceso a Datos
+- DDI - Desarrollo de Interfaces
+- PMM - Programación Movil y Multimedia
+- PSP - Programación de Servicios y Procesos
+- SDGE - Sistemas de Gestión Empresarial
