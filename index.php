@@ -18,7 +18,7 @@
         <li>FOL - Formacion y Orientación Laboral</li>
         <li>PRG - Programación</li>
         <li>BBDD - Bases de Datos</li>
-        <li><a href="DAM1/SSII/index.html">SSII - Sistemas Informáticos</a></li>
+        <li><a href="DAM1/SSII/index.php">SSII - Sistemas Informáticos</a></li>
         <li><a href="DAM1/EntornosDesarrollo/index.html">ED - Entornos de desarrollo</a></li>
     </ul>
     <h2>DAM - Segundo curso</h2>

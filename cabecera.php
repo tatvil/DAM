@@ -1,46 +1,58 @@
 <?php
+
 function menus($menu)
-    { ?>
+    { 
+      $puntoMontaje="/DAM/";
+      ?>
         <div class="menu-principal">
         <ul>
          <li>
  <?php
-            if ($menu=="inicio") {
-                  $directorio=""; ?>
-                  <a class="active" href="index.php">Inicio</a>  <?php
+            if ($menu=="inicio") { ?>
+                  <a class="active"
+                        href=<?php echo "'".$puntoMontaje."index.php'>
+                        Inicio </a>";
                   }
-             else {
-                  $directorio="../../"; ?>
-                  <a href='index.php'>Inicio</a> <?php
-                  }    ?>
-         </li>
+             else { 
+                  $directorio="";?>
+                  <a href=<?php echo "'".$puntoMontaje.
+                  "index.php'> Inicio </a>";
+                  } ?>
+       </li>
          
          <li>
- <?php       if ($menu=="ed"){ ?>
+ <?php       if ($menu=="ed") { ?>
                   <a class="active"
-                        href=<?php echo "'".$directorio."DAM1/EntornosDesarrollo/'>
+                        href=<?php echo "'".$puntoMontaje."DAM1/EntornosDesarrollo/index.php'>
                         Entornos de Desarrollo </a>";
                   }
-             else{ ?> <a href="../../DAM1/EntornosDesarrollo/">Personas </a> <?php  } ?>
+             else { ?>
+                  <a href=<?php echo "'".$puntoMontaje.
+                  "DAM1/EntornosDesarrollo/index.php'> Entornos de Desarrollo </a>";
+                  } ?>
        </li>
        
        <li>
- <?php       if ($menu=="bbdd"){ ?> <a class="active" href="DAM1/BBDD/">Bases de Datos</a> <?php }
-             else{ ?> <a href="DAM1/BBDD">Bases de datos</a> <?php  } ?>
+ <?php       if ($menu=="bbdd") { ?>
+                  <a class="active"
+                        href=<?php echo "'".$puntoMontaje."DAM1/BBDD/index.php'>
+                        Bases de datos </a>";
+                  }
+             else { ?>
+                  <a href=<?php echo "'".$puntoMontaje.
+                  "DAM1/BBDD/index.php'> Bases de datos </a>";
+                  } ?>
        </li>
-
        <li>
- <?php       if ($menu=="pueblos"){ ?> <a class="active" href="query-pueblos.php?nombre=">Pueblos</a> <?php }
-             else{ ?> <a href="query-pueblos.php?nombre=">Pueblos</a> <?php  } ?>
-       </li>
-
-       <li>
- <?php       if ($menu=="propietarios"){ ?> <a class="active" href="insertar-propietarios.php">Propietarios</a> <?php }
-             else{ ?> <a href="insertar-propietarios.php">Propietarios</a> <?php  } ?>
-       </li>
- <li>
- <?php       if ($menu=="captacion"){ ?> <a class="active" href="informe-valoracion-inmueble.php">Captacion</a> <?php }
-             else{ ?> <a href="informe-valoracion-inmueble.php">Captacion</a> <?php  } ?>
+ <?php       if ($menu=="ssii") { ?>
+                  <a class="active"
+                        href=<?php echo "'".$puntoMontaje."DAM1/SSII/index.php'>
+                        Sistemas Informáticos </a>";
+                  }
+             else { ?>
+                  <a href=<?php echo "'".$puntoMontaje.
+                  "DAM1/SSII/index.php'> Sistemas Informáticos </a>";
+                  } ?>
        </li>
 
  </ul>

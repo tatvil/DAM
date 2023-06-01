@@ -17,12 +17,6 @@
   background-color: var(--color-oscuro);
 }
 
-.active {
-	background-color: var(--color-secundario);
-	border-radius: 10px;
-}  
-
-   
 .menu-principal ul {
   list-style-type: none;
   margin: 0;
@@ -50,6 +44,10 @@
   background-color: var(--color-medio);
 }
 
+.active {
+	background-color: var(--color-secundario);
+	border-radius: 10px;
+}
 
 h1 {
     background-color: var(--color-oscuro);

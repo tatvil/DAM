@@ -7,8 +7,11 @@
 
     <title>Sistermas Informáticos</title>
     <link rel="stylesheet" href="../../css/style.css">
+    <?php include "../../cabecera.php"; ?>
 </head>
 <body>
+    <?php menus("inicio"); ?>
+
     <h1>Sistermas Informáticos</h1>
     <h2>Temario </h2>
     <ol>

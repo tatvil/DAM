@@ -7,7 +7,7 @@
 
     <title>Entornos de desarrollo</title>
     <link rel="stylesheet" href="../../css/style.css">
-    <?php include "../../cabecera.php"; ?>
+    <?php include_once "../../cabecera.php"; ?>
 </head>
 <body>
     <?php menus("ed"); ?>
